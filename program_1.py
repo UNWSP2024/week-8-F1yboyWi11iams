@@ -9,6 +9,11 @@ def initials_generator(personsName):
 
     personsInitials = ""
     #    Add your logic here
+    set1 = first[0:1]
+    set2 = mid[0:1]
+    set3 = last[0:1]
+    personsInitials = set1 + ". " + set2 + ". " + set3 + "."
+    print(personsInitials)
 
     return personsInitials.strip()
 
